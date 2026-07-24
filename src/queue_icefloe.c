@@ -27,8 +27,6 @@ void queue_icefloe(PlayState* play) {
         objectCtx->numEntries++;
 
         recomp_printf("Queued OBJECT_ICEFLOE in slot %d\n", slot);
-
-        return;
     }
 }
 
