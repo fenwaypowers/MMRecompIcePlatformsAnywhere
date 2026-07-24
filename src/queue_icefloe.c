@@ -5,6 +5,7 @@
 #include "attributes.h"
 #include "overlays/actors/ovl_En_Arrow/z_en_arrow.h"
 
+
 void queue_icefloe(PlayState* play) {
     ObjectContext* objectCtx = &play->objectCtx;
 
@@ -30,6 +31,7 @@ void queue_icefloe(PlayState* play) {
         return;
     }
 }
+
 
 RECOMP_HOOK("func_8088AA98") void before_func_8088AA98(EnArrow* this, PlayState* play) {
     if (recomp_get_config_u32("allow_anywhere") == 0) {
