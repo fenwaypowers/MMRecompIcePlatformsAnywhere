@@ -1,1 +1,1 @@
-#define ARROW_LIMB_MAX
+#define ARROW_LIMB_MAX 5
