@@ -13,17 +13,17 @@ display_name = "Ice Platforms Anywhere"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-Allows ice platforms in Majora's Mask to be created anywhere without restriction. 
+Allows ice platforms in Majora's Mask to be created on any body of water in the game. 
 
 NOTE: Ice platforms cannot be created on water that is too shallow.
 """
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "Create ice platforms anywhere!"
+short_description = "Create ice platforms on any body of water!"
 
 # Authors of this mod.
-authors = [ "ergico" ]
+authors = [ "Fenway Powers" ]
 
 # ID of the target recomp game.
 game_id = "mm"
@@ -69,7 +69,7 @@ additional_files = [ ]
 [[manifest.config_options]]
 id = "allow_anywhere"
 name = "Allow Ice Platforms Anywhere"
-description = "Determines if ice platforms can be spawned anywhere. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game."
+description = "Determines if ice platforms can be spawned on any body of water. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game."
 type = "Enum"
 options = [ "Yes", "No" ]
 default = "Yes"
