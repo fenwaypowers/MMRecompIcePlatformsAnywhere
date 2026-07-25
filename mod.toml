@@ -6,14 +6,14 @@
 id = "mm_recomp_ice_platforms_anywhere"
 
 # Version of this mod.
-version = "1.1.0"
+version = "1.1.1"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Ice Platforms Anywhere"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-Allows ice platforms in Majora's Mask to be created on any body of water in the game. 
+Allows ice platforms in Majora's Mask to be created on any body of water in the game.
 
 In case you don't want every single area in the game to allow ice platform creation, you can specify the areas you do or do not want to allow ice platform creation in by changing the configuration settings of this mod.
 
@@ -73,7 +73,7 @@ additional_files = ["thumb.png"]
 [[manifest.config_options]]
 id = "allow_anywhere"
 name = "Allow Ice Platforms Anywhere"
-description = "Determines if ice platforms can be created on any body of water. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game, as well as in any of the scenes you specify should allow ice platform creation."
+description = "Determines if ice platforms can be created on any body of water. If set to Yes, then the settings for specific scenes will be disregarded and all bodies of water in the game will allow ice platform creation. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game, as well as in any of the scenes you specify should allow ice platform creation."
 type = "Enum"
 options = [ "Yes", "No" ]
 default = "Yes"
@@ -81,14 +81,14 @@ default = "Yes"
 [[manifest.config_options]]
 id = "95"
 name = "Allow Ice Platforms in Gyorg's Lair"
-description = "Determines if ice platforms can be created in Gyorg's Lair. This replicates the behavior of this scene from the 3DS version of Majora's Mask."
+description = "Determines if ice platforms can be created in Gyorg's Lair. Setting this to "Yes" replicates the behavior of this scene from the 3DS version of Majora's Mask. Setting this to "No" will restore vanilla N64 behavior."
 type = "Enum"
 options = [ "Yes", "No" ]
 default = "Yes"
 
 [[manifest.config_options]]
 id = "55"
-name = "Allow Ice Platforms in Great Bay Coast (Murky Water)"
+name = "Allow Ice Platforms in Great Bay Coast (murky water)"
 description = "Determines if ice platforms can be created in Great Bay Coast when the water is murky (before Gyorg is defeated)."
 type = "Enum"
 options = [ "Yes", "No" ]
