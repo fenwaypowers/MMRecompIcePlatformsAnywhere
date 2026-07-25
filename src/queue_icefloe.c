@@ -5,9 +5,9 @@
 #include "attributes.h"
 #include "overlays/actors/ovl_En_Arrow/z_en_arrow.h"
 
-// Queue OBJECT_ICEFLOE for asynchronous loading if the current room
+// Queue OBJECT_ICEFLOE for asynchronous loading if the current scene
 // does not already include it. This allows BgIcefloe to be spawned
-// anywhere without requiring every room's object list to be modified.
+// anywhere without requiring every scene's object list to be modified.
 void queue_icefloe(PlayState* play) {
     ObjectContext* objectCtx = &play->objectCtx;
 
