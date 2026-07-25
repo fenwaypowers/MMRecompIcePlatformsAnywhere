@@ -6,7 +6,7 @@
 id = "mm_recomp_ice_platforms_anywhere"
 
 # Version of this mod.
-version = "1.0.0"
+version = "1.1.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Ice Platforms Anywhere"
@@ -14,6 +14,8 @@ display_name = "Ice Platforms Anywhere"
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
 Allows ice platforms in Majora's Mask to be created on any body of water in the game. 
+
+In case you don't want every single area in the game to allow ice platform creation, you can specify the areas you do or do not want to allow ice platform creation in by changing the configuration settings of this mod.
 
 NOTE: Ice platforms cannot be created on water that is too shallow.
 """
@@ -69,7 +71,7 @@ additional_files = ["thumb.png"]
 [[manifest.config_options]]
 id = "allow_anywhere"
 name = "Allow Ice Platforms Anywhere"
-description = "Determines if ice platforms can be created on any body of water. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game, as well as in any of the scenes you specify should allow ice platform spawning."
+description = "Determines if ice platforms can be created on any body of water. If set to No, then ice platforms will only be spawnable where they would be in the vanilla game, as well as in any of the scenes you specify should allow ice platform creation."
 type = "Enum"
 options = [ "Yes", "No" ]
 default = "Yes"
