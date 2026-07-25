@@ -47,4 +47,64 @@ RECOMP_HOOK("func_8088AA98") void before_func_8088AA98(EnArrow* this, PlayState*
     if (recomp_get_config_u32("allow_anywhere") == 0) {
         queue_icefloe(play);
     }
+
+    if (recomp_get_config_u32("41") == 0 && play->sceneId == 41) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("69") == 0 && play->sceneId == 69) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("0") == 0 && play->sceneId == 0) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("43") == 0 && play->sceneId == 43) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("70") == 0 && play->sceneId == 70) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("80") == 0 && play->sceneId == 80) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("90") == 0 && play->sceneId == 90) {
+        queue_icefloe(play);
+        return;
+    }
+    
+    if (recomp_get_config_u32("55") == 0 && play->sceneId == 55) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("51") == 0 && (play->sceneId == 51 || play->sceneId == 76)) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("74") == 0 && play->sceneId == 74) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("59") == 0 && play->sceneId == 59) {
+        queue_icefloe(play);
+        return;
+    }
+
+    if (recomp_get_config_u32("95") == 0 && play->sceneId == 95) {
+        queue_icefloe(play);
+        return;
+    }
 }
