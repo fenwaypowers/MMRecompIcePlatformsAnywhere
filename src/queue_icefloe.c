@@ -46,6 +46,7 @@ void queue_icefloe(PlayState* play) {
 RECOMP_HOOK("func_8088AA98") void before_func_8088AA98(EnArrow* this, PlayState* play) {
     if (recomp_get_config_u32("allow_anywhere") == 0) {
         queue_icefloe(play);
+        return;
     }
 
     if (recomp_get_config_u32("41") == 0 && play->sceneId == 41) {
