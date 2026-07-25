@@ -81,7 +81,7 @@ default = "Yes"
 [[manifest.config_options]]
 id = "95"
 name = "Allow Ice Platforms in Gyorg's Lair"
-description = "Determines if ice platforms can be created in Gyorg's Lair. Setting this to "Yes" replicates the behavior of this scene from the 3DS version of Majora's Mask. Setting this to "No" will restore vanilla N64 behavior."
+description = "Determines if ice platforms can be created in Gyorg's Lair. Setting this to Yes replicates the behavior of this scene from the 3DS version of Majora's Mask. Setting this to No will restore vanilla N64 behavior."
 type = "Enum"
 options = [ "Yes", "No" ]
 default = "Yes"
