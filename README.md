@@ -4,7 +4,7 @@ This is a mod for [Zelda64Recompiled](https://github.com/Zelda64Recomp/Zelda64Re
 
 In case you don't want every single area in the game to allow ice platform creation, you can specify the areas you do or do not want to allow ice platform creation in by changing the configuration settings of this mod inside the Zelda64Recompiled application once you have it installed.
 
-With this mod, you can allow ice platform creation in the Gyorg boss room, just like in the 3DS version!
+With this mod, you can allow ice platform creation in the Gyorg boss room, just like in the 3DS version of Majora's Mask!
 
 NOTE: Ice platforms cannot be created on water that is too shallow.
 
